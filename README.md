@@ -117,6 +117,6 @@ $ npm start
 ```
 
 ##References
-[Backbone for Absolute Beginners](http://adrianmejia.com/blog/2012/09/11/backbone-dot-js-for-absolute-beginners-getting-started/)
-[Official Backbone's page](http://backbonejs.org/)
-[Official ToDo example](http://backbonejs.org/docs/todos.html)
+* [Backbone for Absolute Beginners](http://adrianmejia.com/blog/2012/09/11/backbone-dot-js-for-absolute-beginners-getting-started/)
+* [Official Backbone's page](http://backbonejs.org/)
+* [Official ToDo example](http://backbonejs.org/docs/todos.html)
