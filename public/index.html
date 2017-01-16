@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>Backbone.js - ToDo</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<div class="container-fluid">
+	<section id="todoapp">
+  <header id="header">
+			<div class="row text-center">
+				<h1>Learning ToDo -- Backbone.js</h1>
+			</div>
+			<div class="form-group">
+				<label for="new-todo">Your task:</label>
+				<input id="new-todo" class="form-control" placeholder="What needs to be done?" autofocus>
+			</div>
+				<div >
+					<div class="form-group text-right">
+						<a href="#/">Show all</a> |
+						<a href="#/pending">Show pending</a> |
+						<a href="#/completed">Show completed</a>
+					</div>
+				</div>
+  </header>
+  <section id="main">
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<h4>Toggle</h4>
+				</div>
+				<div class="col-md-3 text-center">
+					<h4>Description</h4>
+				</div>
+				<div class="col-md-3 text-center">
+					<h4>Is completed?</h4>
+				</div>
+				<div class="col-md-3 text-center">
+					<h4>Action panel</h4>
+				</div>
+			</div>
+   <ul id="todo-list" class="list-group"></ul>
+  </section>
+	</section>
+</div>
+
+
+<!-- Templates -->
+  <script type="text/template" id="item-template">
+    <div class="row view">
+					<div class="col-md-3">
+						<input class="toggle" type="checkbox" >
+					</div>
+					<div class="col-md-3 text-center">
+						<label><%- title %></label>
+						<div class="form-group">
+							<input class="edit" class="form-control" value="<%- title %>">
+						</div>
+					</div>
+					<div class="col-md-3 text-center">
+						<label><%- completed %></label>
+					</div>
+					<div class="col-md-3 text-right">
+						<button class="destroy btn btn-danger">Remove</button>
+					</div>
+
+
+    </div>
+  </script>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="./lib/bundle.js"></script>
+</body>
+</html>
