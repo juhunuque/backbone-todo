@@ -1,6 +1,11 @@
 #Backbone-ToDo
+![Backbone.js Logo](http://backbonejs.org/docs/images/backbone.png "Backbone.js Logo")
 
 The project goal was learning about Backbone by doing a simple example in order to get used to the more common terms of the library.
+
+## Demo
+https://goo.gl/GxQbD3
+
 ##What is it?
 
 To get started, the first thing that you need to know about Backbone is that it is not a framework, such as Angular or React, it is a library that allows us to create interactive web apps. An interesting thing about this library is that has a hard dependency to jQuery and underscore.js, both are javascript libraries.
@@ -112,6 +117,6 @@ $ npm start
 ```
 
 ##References
+[Backbone for Absolute Beginners](http://adrianmejia.com/blog/2012/09/11/backbone-dot-js-for-absolute-beginners-getting-started/)
 [Official Backbone's page](http://backbonejs.org/)
 [Official ToDo example](http://backbonejs.org/docs/todos.html)
-[Backbone for Absolute Beginners](http://adrianmejia.com/blog/2012/09/11/backbone-dot-js-for-absolute-beginners-getting-started/)
